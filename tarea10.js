@@ -1,5 +1,21 @@
-// declaro clase
+// librerias
 
+
+const btn = document.querySelector('#myBtn')
+btn.addEventListener('click', () => {
+
+    swal.fire ({
+        title: "Bien echo!", 
+        text: "Lograste hacer click!, prueba seguir haciendo click sobre los otros carteles para realizar nuevas funciones", 
+        confirmButtomText: "success"})
+
+})
+
+
+
+
+// declaro clase
+// JS 
 class autos{
     constructor(id,marcaAuto,modeloAuto,añoAuto,colorAuto){
         this.id = id,
